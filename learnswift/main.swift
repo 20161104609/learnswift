@@ -16,15 +16,13 @@ var sum = 0
 for index in 1...100{
     
     sum=sum+index;
+    //print(index);
+}
+var  adc = ("1","2","3","4","5","6","7","8","9","10")
+//print(adc)
 
-}
-/*let  mian = " asdasdasdwqrjlasnfa"
-var ar = [""]
-if  a < ar
-{
-    
-}
-print(mian)*/
 print(sum)
 
-
+var ab = ["2","1","3","7","6","0","4","9","8"]
+let t = ab.sorted(by: <)
+print("\(t)")//打印结果：["1","2","3"]
